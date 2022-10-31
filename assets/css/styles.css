@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #303030;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #D09259;
+  padding: 1rem;
+  border-radius: 0 0 10rem 10rem;
+  position: fixed;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 15%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #303030;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.spacer {
+  padding-top: 5%;
+}
+
+.btn {
+  background: rgb(113, 113, 113);
+  background: linear-gradient(90deg, rgb(113, 113, 113) 0%, rgb(48, 48, 48) 100%);
+  padding: 1.2rem 2rem;
+  border-radius: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  padding: 1.2rem 2.5rem;
+}
+
+.hero {
+  padding-top: 6%;
+  padding-bottom: 3%;
+  background-color: #E1B992;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .text {
+  width: 50%;
+  margin-left: 2rem;
+}
+.hero .text h1 {
+  font-size: 96px;
+  font-weight: 900;
+  margin: 0;
+}
+.hero .text p {
+  margin-bottom: 2rem;
+  width: 70%;
+}
+.hero .image {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: auto;
+  font-size: 96px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.what-we-offer .items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.what-we-offer .items .item {
+  width: 30%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.what-we-offer .items .item i {
+  font-size: 8rem;
+  color: #D09259;
+}
+.what-we-offer .items .item h2 {
+  color: #D09259;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+
+.menu .items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.menu .items .item {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #E1B992;
+  padding: 1.3rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+.menu .items .item img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 0.5rem;
+}
+.menu .items .item h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+.menu .items .item h2 {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 1rem;
+}
+.menu .items .item p {
+  margin: 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.about-us {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+}
+.contact-us .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact-form form input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+.contact-form form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+.contact-form form label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.contact-form form input[type=submit] {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 1rem;
+  background-color: #D09259;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.contact-form form input[type=submit]:hover {
+  background-color: #E1B992;
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #D09259;
+  padding: 5rem;
+  width: 91%;
+  margin: 0;
+  border-radius: 20rem 20rem 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
