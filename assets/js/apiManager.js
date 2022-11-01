@@ -2,7 +2,7 @@ export async function getBurgers() {
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '8697a20562msh46d7a6c2845ddaep1425bajsncd6637e6f5b9',
+      'X-RapidAPI-Key': 'd5f610a8f2msh3f9cd0c11f425a1p1da933jsn7a90aca1275b',
       'X-RapidAPI-Host': 'burgers-hub.p.rapidapi.com'
     }
   };
