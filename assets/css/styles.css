@@ -15,6 +15,14 @@ body {
   overflow-x: hidden;
 }
 
+.body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -61,6 +69,7 @@ nav ul li a {
 .hero {
   padding-top: 10%;
   padding-bottom: 3%;
+  width: 100%;
   background-color: #E1B992;
   display: flex;
   flex-direction: row;
@@ -118,6 +127,10 @@ nav ul li a {
   font-size: 48px;
   font-weight: bold;
   margin: 0;
+}
+
+.visit-us{
+  width: 100%;
 }
 
 .mapouter {
@@ -188,6 +201,7 @@ nav ul li a {
 .contact-us {
   display: flex;
   flex-direction: column;
+  width: 50%;
   height: 40vh;
 }
 .contact-us .btn {
@@ -195,6 +209,11 @@ nav ul li a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.contact-form{
+  width: 50%;
+  margin-bottom: 10rem;
 }
 
 .contact-form form {
